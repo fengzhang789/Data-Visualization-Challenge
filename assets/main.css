@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+body {
+  font-family: 'Poppins';
+  font-weight: 400;
+  --linearPrimarySecondary: linear-gradient(#3a31d8, #020024);
+  --linearPrimaryAccent: linear-gradient(#3a31d8, #0600c2);
+  --linearSecondaryAccent: linear-gradient(#020024, #0600c2);
+  --radialPrimarySecondary: radial-gradient(#3a31d8, #020024);
+  --radialPrimaryAccent: radial-gradient(#3a31d8, #0600c2);
+  --radialSecondaryAccent: radial-gradient(#020024, #0600c2);
+  --text: #ebe9fc;
+  --background: #010104;
+  --primary: #3a31d8;
+  --secondary: #020024;
+  --accent: #0600c2;
+  color: var(--text);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+
+body{
+  background-color: #010104;
+  margin: 0;
+  padding-inline: 2%;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  color: var(--text);
+}
+
+.app {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left {
+  width: 30vw; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdowns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdowns > * {
+  width: 90%;
+  white-space: nowrap;
+  color: black;
+}
+
+.dropdowns > h2 {
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.right {
+  width: 70vw;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.graph {
+  background-color: var(--accent);
+  width: 90%;
+  height: 40vh;
+}
